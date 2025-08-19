@@ -1,0 +1,1181 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+.bgcolor {
+    background-color: darkred;
+}
+
+/* .headline_clock {
+    margin-left: 25px;
+    font-weight: 600;
+} */
+/* new */
+.social-icon {
+        height: 30px;
+        width: 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid white;
+        border-radius: 50%;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    .social-icon:hover {
+        background-color: #ffc107; /* Bootstrap's warning yellow */
+        color: #212529; /* Bootstrap's dark text */
+        border-color: #ffc107;
+    }
+    /* Assuming your .bgcolor is similar to this */
+    .bgcolor {
+        background-color: darkred;
+    }
+
+    /* new */
+
+/* .rightheadline {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    gap: 10px;
+    flex-wrap: nowrap; 
+    min-width: 0;
+}
+
+.headline button {
+    height: 30px;
+    font-size: 15px;
+    padding: 0 8px; 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0; 
+}
+
+.rightheadline .social-icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    flex-shrink: 0; 
+}
+
+.tenders-span {
+   color: white;
+   font-size: 15px; 
+   font-weight: 650;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   flex-shrink: 0;
+   margin-right: 25px;  
+}*/
+
+/* College logo */
+.textcolor {
+    color: darkred;
+}
+
+.header p {
+    font-size: 15px;
+}
+
+.header h4 {
+    font-size: 21px;
+}
+
+.header hr {
+    width: 95%;
+}
+
+.college_logo {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.logo_left {
+    left: 80px;
+}
+
+/* Navbar */
+/* Navbar main styling */
+/* NAVBAR LOOK & FEEL */
+.rec-navbar {
+  background-color: darkred;
+  padding: 0.9rem 1rem;
+}
+
+.rec-navbar .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: .3px;
+  padding: .6rem 1rem;
+}
+
+.rec-navbar .nav-link:hover,
+.rec-navbar .nav-link.active {
+  background-color: #a10000;
+  color: #fff !important;
+}
+
+/* ========================= */
+/* Dropdown menu (REC style) */
+/* ========================= */
+.dropdown-menu {
+    background-color: darkred !important;
+    border: none;          /* optional: removes light gray border */
+    padding: 0;            /* removes extra white padding */
+    margin: 0;             /* removes extra margin */
+}
+
+/* Dropdown items */
+.dropdown-menu .dropdown-item {
+    background-color: darkred;
+    color: white !important;
+}
+
+/* Hover/active effect */
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: white;
+    color: #a00000 !important;
+}
+
+/* Submenu container */
+.dropdown-submenu {
+    position: relative;
+}
+
+/* Submenu dropdown */
+.dropdown-menu .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    display: none;
+    background-color: darkred;
+    border-radius: 0;
+}
+
+/* Show submenu on hover (desktop) */
+@media (min-width: 992px) {
+    .dropdown-menu .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    }
+}
+
+/* Submenu link arrow */
+.dropdown-submenu > a::after {
+    content: '▶';
+    float: right;
+    font-size: 0.6em;
+    margin-left: 10px;
+}
+
+/* Mobile styles (accordion-like) */
+@media (max-width: 991px) {
+    .dropdown-menu .dropdown-submenu .dropdown-menu {
+        left: 0;
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-submenu > a::after {
+        content: '▼'; /* Down arrow on mobile */
+    }
+}
+
+/* Navbar - close */
+
+/* Slider */
+
+/* Ensure carousel takes full width */
+.carousel,
+.carousel-inner,
+.carousel-item {
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+}
+
+/* Make sure images and backgrounds cover nicely */
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Caption container styling */
+.carousel-caption-custom {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-width: 700px;
+    width: 90%;
+    margin-bottom: 40px; /* spacing from bottom */
+}
+
+/* Caption text */
+.carousel-caption-custom h4 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.carousel-caption-custom p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .carousel,
+    .carousel-inner,
+    .carousel-item {
+        height: 350px;
+    }
+    .carousel-caption-custom {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+    .carousel-caption-custom h4 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Announcements Section */
+.announcements-title {
+    background-color: darkred;
+    color: white;
+    padding: 0.75rem;
+}
+
+.announcements-title h6 {
+    margin-left: 8px;
+}
+.announcements-content {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: black;
+    padding: 0.5rem 0;
+}
+
+.notification-container {
+    display: inline-flex;
+    gap: 15px;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.notification-container a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+.notification-container a:hover {
+    color: #007bff;
+}
+
+.notification-container span {
+    color: darkgray;
+    margin: 0 8px;
+}
+
+/* About College Section Background */
+.about-college-section {
+    background-image: url('image/bgimg/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 40px 0;
+}
+
+/* Title Styling */
+.about-college-title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkred;
+    border-left: 5px solid darkred;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+/* Paragraph Styling */
+.about-college-text {
+    line-height: 34px;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Image Box */
+.about-college-image-wrapper {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.about-college-image-wrapper img {
+    height: auto;
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Section background */
+.our-mentors-section {
+    background-color: darkred;
+}
+
+/* Section title */
+.our-mentors-title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+/* Underline below title */
+.title-underline {
+    width: 50px;
+    height: 3px;
+    background: white;
+    margin: 0 auto;
+}
+
+/* Mentor card styling */
+.mentor-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mentor-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Mentor image styling */
+.mentor-img-wrap {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid darkred;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.mentor-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mentor-card:hover .mentor-img-wrap {
+    transform: scale(1.05);
+}
+
+/* Mentor name and designation */
+.mentor-name {
+    color: darkred;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mentor-designation {
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* Director Message Section Background */
+.director-section {
+    background-image: url('image/bgimg/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+
+/* Title Styling */
+.director-title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkred;
+    border-left: 5px solid darkred;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+/* Director Image Card */
+.director-image-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.director-image-card img {
+    width: 95%;
+    border-radius: 5px;
+}
+
+.director-image-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Director Name */
+.director-name {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkred;
+}
+
+/* Director Designation */
+.director-designation {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+/* Director Message Text */
+.director-message {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Greeting Title */
+.director-greeting {
+    font-size: 18px;
+    color: darkred;
+    font-weight: bold;
+}
+
+/* Features & Facilities Section */
+.features-section {
+    background-color: darkred;
+    padding: 50px 0;
+}
+
+/* Section Title */
+.features-title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.features-title::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 60%;
+    background-color: #fff;
+    margin: 10px auto 0;
+}
+
+/* Card Styling */
+.feature-card {
+    border: none;
+    border-radius: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: white;
+}
+
+.feature-card img {
+    height: 200px;
+    object-fit: cover;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Title */
+.feature-card-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: darkred;
+    margin-bottom: 0;
+}
+
+/* Courses Section */
+.courses-section {
+    background-image: url('image/bgimg/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 60px 0;
+}
+.courses-section h2 {
+    color: darkred; /* Dark red heading */
+    font-weight: bold;
+}
+.courses-section h2::after {
+    content: "";
+    display: block;
+    width: 80px;           /* Length of underline */
+    height: 3px;           /* Thickness */
+    background-color: darkred;
+    margin: 8px auto 0;    /* Center underline */
+}
+
+/* Section Heading */
+.section-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+.section-heading::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 10px auto 0;
+}
+
+/* Card Styling */
+.card-course {
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: white;
+}
+
+.card-course img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-course:hover img {
+    transform: scale(1.05);
+}
+
+.card-course:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Card Body */
+.card-body-course {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-body-course h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: darkred;
+    margin-top: 8px;
+}
+
+.card-body-course hr {
+    margin: 10px auto;
+    width: 50px;
+    border: 1px solid darkred;
+}
+
+/* Read More Button */
+.read-more-btn a {
+    display: inline-block;
+    padding: 6px 14px;
+    font-size: 14px;
+    color: white;
+    background-color: darkred;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn a:hover {
+    background-color: #a10000;
+}
+
+
+/* Notices Section Styling */
+.notices-section {
+    background-color: darkred;
+}
+
+.card-custom {
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header-custom {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+}
+
+.card-body-custom {
+    padding: 15px;
+    font-size: 14px;
+    flex: 1;
+    overflow: auto;
+}
+
+.notice-item a {
+    color: #002f86;
+    text-decoration: none;
+}
+
+.notice-item a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 8px 0;
+}
+
+@media (max-width: 768px) {
+    .card-header-custom {
+        font-size: 16px;
+    }
+    .card-body-custom {
+        font-size: 12px;
+    }
+}
+
+
+/* Recent Activities Section */
+.activity-item {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.activity-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.activity-item:hover img {
+    transform: scale(1.05);
+    filter: brightness(70%);
+}
+
+.activity-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Owl Carousel Dots */
+.owl-dots {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.owl-dot span {
+    width: 12px;
+    height: 12px;
+    background: #cccccc;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+
+.owl-dot.active span {
+    background: #002f86;
+    transform: scale(1.2);
+}
+
+/* Owl Carousel Nav Buttons */
+.owl-nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.owl-nav button {
+    background: none;
+    border: none;
+    font-size: 28px;
+    margin: 5px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.owl-nav button:hover {
+    color: #002f86;
+}
+
+
+/* footer */
+/* Footer styling */
+.footer {
+    background-color: #8B0000; /* dark red like mentors section */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-heading {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffc107;
+}
+
+.footer p, .footer li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffc107;
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links li::before {
+    content: "\f35d"; /* Font Awesome arrow icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 8px;
+}
+
+.hitCounter {
+    border-radius: 8px;
+    padding: 6px 10px;
+    background-color: #ffc107;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    background-color: #ffc107;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+
+/* ----------------------------------------------------Next Page ------------------------------------------------------------ */
+/* ---------------------------------------Contact Page-------------------------------------- */
+/* Contact Header */
+/* Contact Header Section */
+/* Contact Header Section */
+.contact-header {
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/049/725/830/small_2x/closeup-of-a-stack-of-books-at-a-local-library-a-resource-for-families-to-gather-and-learn-together-photo.jpg') 
+                no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-header .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px 0;
+}
+
+.contact-header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.contact-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.breadcrumb-custom {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.breadcrumb-custom p {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.breadcrumb-custom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.breadcrumb-custom a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-custom i {
+    padding: 0 10px;
+}
+
+
+/* Contact Header */
+/* Contact Header Section - close */
+/* Contact form */
+/* Contact Section Styling */
+.contact-section {
+    background-color: #fff;
+}
+
+.section-title {
+    color: darkred;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.section-subtitle {
+    color: darkred;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.section-divider {
+    width: 80px;
+    border: 2px solid #0d6efd;
+    margin-bottom: 15px;
+}
+
+.email-link {
+    color: #212529;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.submit-btn:hover {
+    background-color: #a00000;
+}
+
+/* Contact Info Section */
+.contact-info p {
+    line-height: 1.6;
+}
+
+/* Form Inputs */
+.contact-form .form-control {
+    border-radius: 0;
+}
+
+/* IQAC PAGE */
+/* Styling for the "IQAC" heading */
+        .iqac-heading {
+            color: #333;
+            font-size: 24px;
+            font-weight: 600;
+            border-bottom: 2px solid #dc3545; /* Red bottom border */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Main table styling */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse; /* Removes space between borders */
+            border: 1px solid #ddd;
+        }
+
+        /* Table header row styling */
+        .data-table thead tr {
+            background-color: darkred; /* Dark red background */
+            color: #ffffff; /* White text */
+            text-align: left;
+        }
+
+        /* Table header cells (th) styling */
+        .data-table th {
+            padding: 12px 15px;
+            font-weight: bold;
+        }
+        
+        /* Table body cells (td) styling */
+        .data-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd; /* Separator line for rows */
+        }
+        
+        /* Style for the body row */
+        .data-table tbody tr {
+            background-color: #f9f9f9;
+        }
+
+        .data-table tbody tr:hover {
+            background-color: #f1f1f1; /* Slight highlight on hover */
+        }
+
+
+/*----------------------------------------------- Accreditations Page-----------------------------------------------*/
+.ticker-wrap {
+        width: 100%;
+        overflow: hidden;
+    }
+    .ticker-move {
+        display: inline-block;
+        white-space: nowrap;
+        animation: ticker 15s linear infinite;
+    }
+    .ticker-move:hover {
+        animation-play-state: paused;
+    }
+    @keyframes ticker {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+
+    /*----------------------------------------------- Academics - course of study Page-----------------------------------------------*/
+
+.department-img {
+        height: 360px;
+        width: 100%;
+        object-fit: cover; /* Prevents image stretching */
+    }
+
+    /*----------------------------------------------- Academics - Academic calender-----------------------------------------------*/
+
+.department-img {
+        height: 360px;
+        width: 100%;
+        object-fit: cover; /* Prevents image stretching */
+    }
+
+    /*----------------------------------------------- Departments - cs-----------------------------------------------*/
+
+.department-showcase-img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover; /* Prevents image from stretching or squishing */
+    }
+    .faculty-photo {
+        width: 100px;
+        height: 100px;
+        object-fit: cover; /* Prevents image from stretching */
+    }
+
+    /*----------------------------------------------- Departments - ce-----------------------------------------------*/
+
+    .department-showcase-img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover; /* Prevents image stretching */
+    }
+    .faculty-photo {
+        width: 100px;
+        height: 100px;
+        object-fit: cover; /* Prevents image stretching */
+    }
+
+    /*----------------------------------------------- Departments - me-----------------------------------------------*/
+
+     .department-showcase-img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover; /* Prevents image stretching */
+    }
+    .faculty-photo {
+        width: 100px;
+        height: 100px;
+        object-fit: cover; /* Prevents image stretching */
+    }
+
+    /*----------------------------------------------- Departments - ee-----------------------------------------------*/
+
+    .department-showcase-img {
+        height: 350px;
+        width: 100%;
+        object-fit: cover; /* Prevents image stretching */
+    }
+    .faculty-photo {
+        width: 100px;
+        height: 100px;
+        object-fit: cover; /* Prevents image stretching */
+    }
+
+    /*----------------------------------------------- Departments - apsh-----------------------------------------------*/
+    .department-showcase-img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover; /* Prevents image stretching */
+    }
+    .faculty-photo {
+        width: 100px;
+        height: 100px;
+        object-fit: cover; /* Prevents image stretching */
+    }
+    .faculty-photo-contain {
+        width: 100px;
+        height: 100px;
+        object-fit: contain; /* Use for images that need to be fully visible */
+        background-color: #f8f9fa; /* Optional light background for contain images */
+    }
+
+        /*-----------------------------------------------placement cell - past recruiters-----------------------------------------------*/
+
+    .recruiter-logo {
+        max-height: 60px; /* Controls the height of the logos */
+        filter: grayscale(100%);
+        opacity: 0.8;
+        transition: all 0.3s ease-in-out;
+    }
+    .recruiter-logo:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+        /*-----------------------------------------------placement cell - training and placement offer-----------------------------------------------*/
+
+    .tpo-profile-photo {
+        height: 100%;
+        min-height: 250px;
+        width: 100%;
+        object-fit: cover; /* Prevents image stretching */
+    }
+
+
+        /*-----------------------------------------------students - central facility-----------------------------------------------*/
+
+    .facility-card {
+        transition: transform 0.3s ease-in-out;
+    }
+    .facility-card:hover {
+        transform: translateY(-5px); /* Lifts the card slightly on hover */
+    }
+    .facility-card-img {
+        height: 250px;
+        object-fit: cover; /* Prevents image stretching */
+        transition: transform 0.4s ease;
+    }
+    .facility-card:hover .facility-card-img {
+        transform: scale(1.1); /* Zoom effect on the image */
+    }
+    .facility-overlay {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 60%);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+    .facility-card:hover .facility-overlay {
+        opacity: 1; /* Show overlay on hover */
+    }
+
+/* --------------------------------------------------------------------Hostels----------------------------------------------------------- */
+    .gallery-thumbnail {
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .gallery-thumbnail:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    }
+
+    /* ---------------------------------gallery------------------------------------------- */
+    .gallery-item {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .gallery-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    }
+    .gallery-img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover; /* Prevents image stretching */
+    }
+    /* Style for the filter buttons */
+    .filter-btn-group .btn {
+        margin-bottom: 0.5rem;
+    }
+
+    /* -------------------------------------facult and research - Faculty Directory-------------------------------------------------- */
+    .faculty-photo {
+        width: 100px;
+        height: 100px;
+        object-fit: cover; /* Prevents image stretching */
+    }
+    .faculty-photo-contain {
+        width: 100px;
+        height: 100px;
+        object-fit: contain; /* For images that need to be fully visible */
+        background-color: #f8f9fa;
+    }
+    /* Custom style for the tab borders */
+    .nav-tabs-bordered .nav-link {
+        border: none;
+        border-bottom: 2px solid transparent;
+    }
+    .nav-tabs-bordered .nav-link.active {
+        border-bottom-color: darkred;
+        color: darkred;
+    }
